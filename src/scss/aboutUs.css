@@ -1,0 +1,68 @@
+.aboutUs .aboutUs_info {
+  font-family: Proxima Nova;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 28px;
+  line-height: 34px;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: #000000;
+}
+
+.locationDetail {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.locationDetail .locationInfo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.locationDetail .locationInfo p {
+  margin-right: 40px;
+  font-family: Proxima Nova;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 28px;
+  line-height: 34px;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: #000000;
+}
+
+.locationDetail .locationInfo button {
+  margin-top: 30px;
+  width: 220px;
+  height: 65px;
+  font-family: Proxima Nova;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 44px;
+  /* identical to box height */
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: #FFFFFF;
+  background: #E4940F;
+  border-radius: 10px;
+}
+/*# sourceMappingURL=aboutUs.css.map */

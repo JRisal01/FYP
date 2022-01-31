@@ -1,0 +1,40 @@
+.contact{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 60px;
+}
+
+.contact_info_title{
+    font-family: Berlingske Serif;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 72px;
+    line-height: 86px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.04em;
+
+    color: #EBAF4B;
+}
+
+.contact_info_item{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;    
+    p{
+        margin-left: 30px;
+        font-family: Oswald;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 28px;
+        line-height: 41px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        letter-spacing: 0.04em;
+
+        color: #000000;
+    }
+}

@@ -1,0 +1,50 @@
+.highlite{
+    display: flex;
+    
+    flex-direction: row;
+    margin-top: 50px;
+    background: #EBAF4B;
+    align-items: center;
+}
+
+.highlite_info{
+    margin-left: 60px;
+    h1{
+        width: 457.43px;
+        font-family: Nunito;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 48px;
+        line-height: 65px;
+        color: #5C3D2E;
+    }
+    p{
+        margin-top: 18px;
+        font-family: Nunito;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 24px;
+        line-height: 33px;
+        width: 457.43px;
+    }
+    
+}
+
+.highlite_profile{
+    margin-top: 25px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    .highlite_profile_info{
+        p{
+            margin: 0px 0px 0px 20px;
+            font-family: Nunito;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 18px;
+            line-height: 25px;
+            color: #2D2424;
+        }
+        
+    }
+}

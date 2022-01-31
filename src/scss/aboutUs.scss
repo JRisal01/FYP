@@ -1,0 +1,56 @@
+.aboutUs{
+    .aboutUs_info{
+        font-family: Proxima Nova;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 28px;
+        line-height: 34px;
+        text-align: center;
+        letter-spacing: 0.04em;
+
+        color: #000000;
+    }
+}
+
+.locationDetail{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .locationInfo{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+        p{
+            margin-right: 40px;
+            font-family: Proxima Nova;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 28px;
+            line-height: 34px;
+            text-align: center;
+            letter-spacing: 0.04em;
+
+            color: #000000;
+        }
+
+        button{
+            margin-top: 30px;
+            width: 220px;
+            height: 65px;
+            font-family: Proxima Nova;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 36px;
+            line-height: 44px;
+            /* identical to box height */
+            
+            text-align: center;
+            letter-spacing: 0.04em;
+            
+            color: #FFFFFF;
+            background: #E4940F;
+            border-radius: 10px;
+        }
+    }
+}

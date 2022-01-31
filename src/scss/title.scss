@@ -1,0 +1,54 @@
+.title{
+    margin-left: 50px;
+    p{
+        font-family: Berlingske_Serif;
+        font-style: italic;
+        font-weight: normal;
+        font-size: 70px;
+        line-height: 74px;
+        letter-spacing: -2px;
+        color: #E4940F;
+    }
+}
+
+.no_subtitle{
+    hr{
+        margin: 0px;
+        width: 275px;
+        height: 1px;
+        background-color: #E4940F;
+        border: #E4940F;
+        align-items: left;
+    }
+
+}
+
+.subtitle {
+    margin-top: -20px;
+   ;
+    display: flex;
+    align-items: baseline;
+    
+
+    hr{
+        margin: 0px;
+        width: 275px;
+        height: 1px;
+        background-color: #E4940F;
+        border: #E4940F;
+        align-items: left;
+    }
+
+    p{
+        font-family: Berlingske Serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 80px;
+        line-height: 84px;
+        /* identical to box height, or 105% */
+
+        letter-spacing: -2px;
+
+        color: #211718;
+    }
+}

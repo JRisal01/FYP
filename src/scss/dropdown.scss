@@ -1,0 +1,37 @@
+.dataChange{
+    border: 1px solid rgba(0, 0, 0, 0.75); 
+    width: 50px;
+height: 50px;
+}
+
+.booking_list_data{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.dataNumber{
+    font-family: Lato;
+font-style: normal;
+font-weight: 800;
+font-size: 20px;
+line-height: 144.5%;
+/* identical to box height, or 29px */
+
+letter-spacing: 0.08em;
+
+color: #E4940F;
+}
+
+.booking_list__info{
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 26px;
+    /* identical to box height */
+
+    letter-spacing: 0.08em;
+
+    color: #000000;
+}

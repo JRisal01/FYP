@@ -1,0 +1,63 @@
+.highlite {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin-top: 50px;
+  background: #EBAF4B;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.highlite_info {
+  margin-left: 60px;
+}
+
+.highlite_info h1 {
+  width: 457.43px;
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 65px;
+  color: #5C3D2E;
+}
+
+.highlite_info p {
+  margin-top: 18px;
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 33px;
+  width: 457.43px;
+}
+
+.highlite_profile {
+  margin-top: 25px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.highlite_profile .highlite_profile_info p {
+  margin: 0px 0px 0px 20px;
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 25px;
+  color: #2D2424;
+}
+/*# sourceMappingURL=highlite.css.map */

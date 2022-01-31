@@ -1,0 +1,14 @@
+.gallery {
+  margin: auto;
+  padding: 0px 20px 0px 0px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto auto auto auto;
+      grid-template-columns: auto auto auto auto;
+  row-gap: 4px;
+}
+
+.gallery .post__gallery-image {
+  width: 280px;
+}
+/*# sourceMappingURL=gallery.css.map */

@@ -1,0 +1,57 @@
+.title {
+  margin-left: 50px;
+}
+
+.title p {
+  font-family: Berlingske_Serif;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 70px;
+  line-height: 74px;
+  letter-spacing: -2px;
+  color: #E4940F;
+}
+
+.no_subtitle hr {
+  margin: 0px;
+  width: 275px;
+  height: 1px;
+  background-color: #E4940F;
+  border: #E4940F;
+  -webkit-box-align: left;
+      -ms-flex-align: left;
+          align-items: left;
+}
+
+.subtitle {
+  margin-top: -20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+}
+
+.subtitle hr {
+  margin: 0px;
+  width: 275px;
+  height: 1px;
+  background-color: #E4940F;
+  border: #E4940F;
+  -webkit-box-align: left;
+      -ms-flex-align: left;
+          align-items: left;
+}
+
+.subtitle p {
+  font-family: Berlingske Serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 80px;
+  line-height: 84px;
+  /* identical to box height, or 105% */
+  letter-spacing: -2px;
+  color: #211718;
+}
+/*# sourceMappingURL=title.css.map */

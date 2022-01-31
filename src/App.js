@@ -1,23 +1,28 @@
-import logo from './logo.svg';
+import React, {useEffect} from 'react';
+import Banner from './component/landing/Banner.js';
+import Booking from './component/landing/Booking.js';
+import About from './component/landing/about.js';
+import Room from './component/landing/room.js';
+import Highlite from './component/landing/Highlite.js';
+import Gallery from './component/landing/gallery.js';
+import Contact from './component/landing/Contact.js';
+import MainNav from './component/all/MainNav.js';
+import AboutUs from './component/aboutUs/AboutUs.js';
 import './App.css';
 
 function App() {
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* <Banner />
+      <Booking />
+      <About />
+      <Room />
+      <Highlite />
+      <Gallery />
+      <Contact /> */}
+      < AboutUs/>
+
     </div>
   );
 }
